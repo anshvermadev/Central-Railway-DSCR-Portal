@@ -15,6 +15,40 @@ An end-to-end clinical screening web application designed for the Divisional Rai
 
 ---
 
+## 👥 Development Team
+
+This portal was designed, built, and delivered by:
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="180">
+        <a href="https://github.com/dhruvp-dev">
+          <img src="https://github.com/dhruvp-dev.png" width="80" style="border-radius: 50%;" alt="Dhruv Pandey"/><br />
+          <sub><b>Dhruv Pandey</b></sub>
+        </a><br />
+        <small>Backend Developer</small>
+      </td>
+      <td align="center" width="180">
+        <a href="https://github.com/ramanan-2735">
+          <img src="https://github.com/ramanan-2735.png" width="80" style="border-radius: 50%;" alt="Ramanan"/><br />
+          <sub><b>Ramanan</b></sub>
+        </a><br />
+        <small>Full Stack Developer</small>
+      </td>
+      <td align="center" width="180">
+        <a href="https://github.com/anshvermadev">
+          <img src="https://github.com/anshvermadev.png" width="80" style="border-radius: 50%;" alt="Ansh Verma"/><br />
+          <sub><b>Ansh Verma</b></sub>
+        </a><br />
+        <small>Frontend Developer</small>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
 ## Table of Contents
 
 - [What the Project Does](#what-the-project-does)
@@ -31,7 +65,6 @@ An end-to-end clinical screening web application designed for the Divisional Rai
 - [Key Features Setup & Integration](#key-features-setup--integration)
   - [WhatsApp Automation](#whatsapp-automation)
   - [Exporting Reports](#exporting-reports)
-- [Development Team](#development-team)
 
 ---
 
@@ -229,35 +262,3 @@ The application uses `whatsapp-web.js` under the hood. When the app starts:
 
 - **All Data Export**: Hit `GET /export-to-excel-all` to download a complete spreadsheet of all patient logs.
 - **Individual Patient Data**: Hit `GET /export-to-excel/:id` where `:id` is the patient's registration number to fetch a detailed report for that specific patient.
-
-## 👥 Development Team
-
-This portal was designed, built, and delivered by:
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="180">
-        <a href="https://github.com/dhruvp-dev">
-          <img src="https://github.com/dhruvp-dev.png" width="80" style="border-radius: 50%;" alt="Dhruv P"/><br />
-          <sub><b>Dhruv Pandey</b></sub>
-        </a><br />
-        <small>Backend Developer</small>
-      </td>
-      <td align="center" width="180">
-        <a href="https://github.com/ramanan-2735">
-          <img src="https://github.com/ramanan-2735.png" width="80" style="border-radius: 50%;" alt="Ramanan"/><br />
-          <sub><b>Ramanan</b></sub>
-        </a><br />
-        <small>Full Stack Developer</small>
-      </td>
-      <td align="center" width="180">
-        <a href="https://github.com/anshvermadev">
-          <img src="https://github.com/anshvermadev.png" width="80" style="border-radius: 50%;" alt="Ansh Verma"/><br />
-          <sub><b>Ansh Verma</b></sub>
-        </a><br />
-        <small>Frontend Developer</small>
-      </td>
-    </tr>
-  </table>
-</div>
