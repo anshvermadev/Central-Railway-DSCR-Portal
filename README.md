@@ -1,8 +1,5 @@
 # Central Railway - Diabetic Retinopathy Screening for Mumbai Division (DSCR) 👁️🩺
 
-<img width="1728" height="2134" alt="Gemini_Generated_Image_m1re3vm1re3vm1re" src="https://github.com/user-attachments/assets/e659379b-56bc-4ae3-a392-6003a0661af0" />
-
-
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.20.0-blue.svg)](https://nodejs.org/)
 [![Database](https://img.shields.io/badge/Database-PostgreSQL-blue.svg)](https://www.postgresql.org/)
 [![License](https://img.shields.io/badge/License-ISC-green.svg)](LICENSE)
@@ -48,6 +45,24 @@ This portal was designed, built, and delivered by:
       </td>
     </tr>
   </table>
+</div>
+
+---
+
+## 🏆 Letter of Appreciation
+
+> Issued by the **Office of the Chief Medical Superintendent**,
+> Divisional Railway Hospital, Mumbai Division — Central Railway
+> **Letter No.** KYN/H/DSCR/AV · **Date:** 13/02/2025
+
+<img width="1728" height="2134" alt="Letter of Appreciation — Central Railway, Chief Medical Superintendent" src="https://github.com/user-attachments/assets/485787f2-4ac1-4d38-a83f-eedbf2b5687d" />
+
+
+<div align="center">
+  <sub>
+    Signed by <b>Dr. Mahendra B. Gangurde</b> (Chief Medical Superintendent) &
+    <b>Dr. Mohammad Shoeb Zahid</b> (Divisional Medical Officer)
+  </sub>
 </div>
 
 ---
@@ -115,7 +130,7 @@ The PostgreSQL schema is structured as follows. Use the SQL statements in [queri
 erDiagram
     DETAILS ||--o{ PATIENTLOG : "has history"
     DETAILS ||--o{ IMAGES : "has scans"
-    
+
     DETAILS {
         text reg PK "Registration Number"
         text name "Patient Name"
@@ -198,13 +213,13 @@ erDiagram
 
 1. Log into your PostgreSQL instance.
 2. Create a new database:
-   ```sql
+```sql
    CREATE DATABASE dscr_db;
-   ```
+```
 3. Run the schema creation script from the root project directory:
-   ```bash
+```bash
    psql -d dscr_db -f queries.sql
-   ```
+```
 
 ### Environment Variables
 
@@ -227,13 +242,13 @@ In order to generate PDF screening forms, you must provide a template PDF file:
 ### Installation & Local Run
 
 1. Install project dependencies:
-   ```bash
+```bash
    npm install
-   ```
+```
 2. Start the Express server:
-   ```bash
+```bash
    npm start
-   ```
+```
 3. The server will run at: `http://localhost:3000/home`
 
 ### Running with Docker
@@ -241,13 +256,13 @@ In order to generate PDF screening forms, you must provide a template PDF file:
 Since the app requires Chrome dependencies to run the WhatsApp client (via Puppeteer), deploying via Docker is highly recommended to avoid local binary issues.
 
 1. Build the Docker image:
-   ```bash
+```bash
    docker build -t dscr-portal .
-   ```
+```
 2. Run the container:
-   ```bash
+```bash
    docker run -p 3000:3000 -e DB_URL=your_postgres_db_url dscr-portal
-   ```
+```
 
 ---
 
