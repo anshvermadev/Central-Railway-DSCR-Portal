@@ -55,7 +55,7 @@ This portal was designed, built, and delivered by:
 > Divisional Railway Hospital, Mumbai Division — Central Railway
 > **Letter No.** KYN/H/DSCR/AV · **Date:** 13/02/2025
 
-<img width="1728" height="2134" alt="Letter of Appreciation — Central Railway, Chief Medical Superintendent" src="https://github.com/user-attachments/assets/485787f2-4ac1-4d38-a83f-eedbf2b5687d" />
+<img width="1382" height="1707" alt="Letter of Appreciation — Central Railway, Chief Medical Superintendent" src="https://github.com/user-attachments/assets/ead83971-3008-4f99-acd2-32a1f37215a6" />
 
 
 <div align="center">
