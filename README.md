@@ -1,5 +1,8 @@
 # Central Railway - Diabetic Retinopathy Screening for Mumbai Division (DSCR) 👁️🩺
 
+<img width="1728" height="2134" alt="Gemini_Generated_Image_m1re3vm1re3vm1re" src="https://github.com/user-attachments/assets/e659379b-56bc-4ae3-a392-6003a0661af0" />
+
+
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.20.0-blue.svg)](https://nodejs.org/)
 [![Database](https://img.shields.io/badge/Database-PostgreSQL-blue.svg)](https://www.postgresql.org/)
 [![License](https://img.shields.io/badge/License-ISC-green.svg)](LICENSE)
